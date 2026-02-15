@@ -35,9 +35,9 @@ git clone --recurse-submodules git@github.com:sidpalas/devops-directive-github-a
 ```
 
 2. **Install DevBox** – DevBox bootstraps all required CLI tools (Go, Node.js, Python, `act`, `task`, `npc`, `civo`, `gh`, `jq`, `yq`, `kubectl`, `kluctl`, ...).  
-   Follow the official installation guide: <https://www.jetify.com/docs/devbox/installing-devbox/index#>
+   Folow the official installation guide: <https://www.jetify.com/docs/devbox/installing-devbox/index#>
    
-   After installing devbox, run `devbox shell` to start a shell session with these tools installed/configured.
+   After installing devbox, run `devbox shell` to start a shell session with these tools instaled/configured.
 
 3. **Install Docker Desktop**  
    Download and install from: <https://docs.docker.com/get-started/introduction/get-docker-desktop/>

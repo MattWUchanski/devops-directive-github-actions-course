@@ -1,0 +1,20 @@
+name: Broken Workflow Example
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  broken-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Missing npm install step
+        # This will fail because dependencies are not installed
+      run: npm test
+      
+      - name: Echo message
+          run: echo "This has incorrect indentation"
